@@ -23,7 +23,7 @@ O sistema contempla as seguintes jornadas de cadastro:
 ## 🛠️ Tecnologias e Ferramentas
 
 - **UML** - Para modelagem e diagramação do sistema
-- **Figma/Miro** - Para desenvolvimento dos protótipos funcionais
+- **HTML CSS JS** - Para desenvolvimento dos protótipos funcionais
 - **Markdown** - Para documentação do projeto
 - **Git/GitHub** - Para controle de versão e colaboração
 
@@ -34,18 +34,9 @@ O sistema contempla as seguintes jornadas de cadastro:
 │
 ├── README.md                    # Documentação principal do projeto
 ├── instricuoesgerais.md         # Instruções gerais da segunda entrega
-│
-├── diagramas/                    # Diagramas UML da fase 1
-│   ├── diagrama-caso-uso.md
-│   ├── diagrama-classes.md
-│   └── ...
-│
-└── prototipos/                   # Protótipos de interface
-    ├── cadastro-pessoa-fisica/
-    ├── cadastro-pessoa-juridica/
-    ├── cadastro-professores/
-    ├── cadastro-fornecedores/
-    └── cadastro-alunos/
+├── prototipo-visual.html        # Protótipo funcional da interface
+└── imagens/                     # Imagens dos protótipos e telas do sistema
+
 ```
 
 ## 📊 Diagramas UML
@@ -59,31 +50,36 @@ O sistema contempla as seguintes jornadas de cadastro:
 
 ## 🎨 Protótipos de Interface
 
-> **Nota:** Os protótipos desenvolvidos em Figma ou Miro serão anexados aqui.
+### Protótipo Funcional
 
-### Jornadas Prototipadas:
-- [ ] Cadastro de Pessoa Física
-- [ ] Cadastro de Pessoa Jurídica
-- [ ] Cadastro de Professores
-- [ ] Cadastro de Fornecedores
-- [ ] Cadastro de Alunos
+O protótipo funcional completo da interface está disponível no arquivo HTML:
 
-## 👥 Equipe
+📄 **[Acessar Protótipo Visual](prototipo-visual.html)**
 
-Lista dos integrantes do grupo e suas responsabilidades:
+### Telas de Cadastro
 
-- **Matheus Wanderley** 
-- **Rafael Marques**
+Abaixo estão as telas desenvolvidas para as diferentes jornadas de cadastro do sistema:
 
-## 🤝 Como Contribuir
+#### Cadastro de Aluno
 
-1. Certifique-se de ter uma conta no GitHub
-2. Solicite acesso ao repositório como contribuidor
-3. Siga o fluxo de trabalho:
-   - Crie uma branch para sua feature (`git checkout -b feature/nova-funcionalidade`)
-   - Faça commit das suas alterações (`git commit -m 'Adiciona nova funcionalidade'`)
-   - Faça push para a branch (`git push origin feature/nova-funcionalidade`)
-   - Abra um Pull Request
+![Cadastro de Aluno](imagens/CadastroAluno.png)
+
+**Tela de Sucesso:**
+![Sucesso - Cadastro de Aluno](imagens/sucesso-aluno.png)
+
+#### Cadastro de Professor
+
+![Cadastro de Professor](imagens/CadastroProfessor.png)
+
+**Tela de Sucesso:**
+![Sucesso - Cadastro de Professor](imagens/sucesso-processor.png)
+
+#### Cadastro de Fornecedor
+
+![Cadastro de Fornecedor](imagens/CadastroFornecedor.png)
+
+**Tela de Sucesso:**
+![Sucesso - Cadastro de Fornecedor](imagens/sucesso-fornecedor.png)
 
 ## 📝 Entregas do Projeto
 
@@ -92,22 +88,8 @@ Lista dos integrantes do grupo e suas responsabilidades:
 - [x] Diagramas de caso de uso
 - [x] Modelagem do sistema
 
-### Fase 2 - Prototipação (Em andamento)
-- [ ] Desenvolvimento dos protótipos de interface
-- [ ] Protótipos das jornadas de cadastro
-- [ ] Documentação no README.md
-- [ ] Anexação dos protótipos e diagramas
-
-## 📚 Referências
-
-- [Guia de Sintaxe Markdown](https://www.markdownguide.org/basic-syntax/)
-- Documentação UML
-- Ferramentas de prototipação: [Figma](https://www.figma.com/) | [Miro](https://miro.com/)
-
-## 📄 Licença
-
-Este projeto é desenvolvido para fins acadêmicos como parte do Projeto Integrador.
-
----
-
-**Última atualização:** [Data da última atualização]
+### Fase 2 - Prototipação (Concluída)
+- [x] Desenvolvimento dos protótipos de interface
+- [x] Protótipos das jornadas de cadastro
+- [x] Documentação no README.md
+- [x] Anexação dos protótipos e diagramas
