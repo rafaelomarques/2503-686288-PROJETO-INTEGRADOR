@@ -72,7 +72,8 @@ O sistema contempla as seguintes jornadas de cadastro:
 
 Lista dos integrantes do grupo e suas responsabilidades:
 
-- [Adicionar nomes dos integrantes]
+- **Matheus Wanderley** 
+- **Rafael Marques**
 
 ## 🤝 Como Contribuir
 
